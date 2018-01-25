@@ -1,0 +1,10 @@
+body{
+	width: 1000px;
+	margin:0 auto;
+	background-color: #ddd;
+}
+.banner{
+	background-image: url(images/banner.jpg);
+	width: 100%;
+	height: 100px;
+}
