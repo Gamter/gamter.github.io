@@ -7,63 +7,77 @@
 </head>
 <body>
 
-	<header>
-		<h1>极游软件</h1>
-		<hr/>
-		<nav>
-			<a href="#">小程序</a>
-			<a href="#">小游戏</a>
-			<a href="#">联系我们</a>
+	<header class="header">
+		<img src="images/jiyou.png" width="300px;" height="120px;">
+		<div class="horizon"></div>
+		<nav class="navigator">
+			<a href="#xcx">小程序</a>
+			<a href="#xyx">小游戏</a>
+			<a href="#contact">联系我们</a>
 		</nav>
 	</header>
 
-	<div class="banner"></div>
+	<div class="banner" style="background-image: url(images/banner.jpg);"></div>
+	<div class="banner" style="background-image: url(images/xcx1.jpg);"></div>
+	<div class="banner" style="background-image: url(images/xcx2.png);"></div>
 
-	<div>
-		<h2>小程序</h2>
-		<div style="background-image: url(images/xcx1.jpg);"></div>
-		<div style="background-image: url(images/xcx2.png);"></div>
-		<div>
-			<div>
-				<h6>企业展示</h6>
-				<div style="background-image: url(images/company.png);"></div>
+	<div class="my-content" id="xcx">
+		<div class="horizon"></div>
+		<h1>微信小程序定制</h1>
+		<div class="card-container">
+			<div class="card">
+				<div class="card-img" style="background-image: url(images/company.png);"></div>
+				<h3>企业展示</h3>
 			</div>
-			<div>
-				<h6>智慧门店</h6>
-				<div style="background-image: url(images/smartshop.png);"></div>
+			<div class="card">
+				<div class="card-img" style="background-image: url(images/smartshop.png);"></div>
+				<h3>智慧门店</h3>
 			</div>
-			<div>
-				<h6>在线商城</h6>
-				<div style="background-image: url(images/onlineshop.png);"></div>
-			</div>
-		</div>
-		<div style="background-image: url(images/xcx3.png);"></div>
-	</div>
-
-	<div>
-		<h2>小游戏</h2>
-		<div>
-			<div>
-				<h6>太极秀</h6>
-				<div style="background-image: url(images/taijishoot.png);"></div>
-			</div>
-			<div>
-				<h6>算数大师</h6>
-				<div style="background-image: url(images/mathmaster.png);"></div>
-			</div>
-			<div>
-				<h6>闪电车</h6>
-				<div style="background-image: url(images/car.png);"></div>
+			<div class="card">
+				<div class="card-img" style="background-image: url(images/onlineshop.png);"></div>
+				<h3>在线商城</h3>
 			</div>
 		</div>
 	</div>
 
-	<div>
-		<h2>联系我们</h2>
-		<p>电话：23333333</p>
-		<p>邮箱：2333333333</p>
-		<p>qq:2333333333</p>
-		<p>微信：233333333</p>
+	<div class="banner" style="background-image: url(images/xcx3.png);"></div>
+
+	<div class="my-content" style="height: 500px;" id="xyx">
+		<div class="horizon"></div>
+		<h1>大白萝的小游戏</h1>
+		<div class="card-container" style="height: 240px;">
+			<div class="card">
+				<div class="card-img-row" style="background-image: url(images/taijishoot.png);"></div>
+				<h3>太极秀</h3>
+			</div>
+			<div class="card">
+				<div class="card-img-row" style="background-image: url(images/mathmaster.png);"></div>
+				<h3>算数大师</h3>
+			</div>
+			<div class="card">
+				<div class="card-img-row" style="background-image: url(images/car.png);"></div>
+				<h3>闪电车</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="contact" id="contact">
+		<h1>联系我们</h1>
+		<div class="contact-container">
+			<div class="contact-item">
+				<img class="contact-img" src="images/icon-mail.png">
+				<p>gamter@ujiyou.com</p>
+			</div>
+			<div class="contact-item">
+				<img class="contact-img" src="images/icon-wechat.png">
+				<p>gamhumter</p>
+			</div>
+			<div class="contact-item">
+				<img class="contact-img" src="images/icon-qq.png">
+				<p>351781065</p>
+			</div>
+		</div>
+		
 	</div>
 
 </body>
