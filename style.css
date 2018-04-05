@@ -73,6 +73,19 @@ a{
 	background-size: 100% 100%;
 	width: 100%;
 	height: 400px;
+	transition: opacity 1s;
+}
+
+/*.card-img:link{
+
+}
+
+.card-img:visited{
+
+}*/
+
+.card-img:hover{
+	opacity: 0;
 }
 
 .card-img-row{
@@ -108,10 +121,18 @@ a{
 	margin-right: 30px;
 }
 
-.app-code{
+.jiyou-code{
 	position: fixed;
 	bottom: 60px;
 	right: 60px;
+}
+
+.app-code{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	margin: auto ;
+	z-index: -1;
 }
 
 
