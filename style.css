@@ -18,6 +18,10 @@ body{
 	background-color: #bbb;
 }
 
+h2{
+	font-size: 36px;
+}
+
 .navigator{
 	height: 100px;
 	line-height: 100px;
