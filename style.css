@@ -57,6 +57,7 @@ a{
 }
 
 .card{
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -127,11 +128,12 @@ a{
 }
 
 .app-code{
-	display: block;
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	margin: auto;
+	top:150px;
+	left: 50%;
+	margin-left: -100px;
 	z-index: -1;
 }
 
